@@ -1,6 +1,6 @@
-import { MockLocationCheck } from 'capacitor-mock-location-checker';
+import {MockLocationCheck} from 'capacitor-mock-location-checker';
 
-window.testEcho = () => {
-    const inputValue = document.getElementById("echoInput").value;
-    MockLocationCheck.echo({ value: inputValue })
+window.checkLocationMock = async () => {
+    let isMock = await MockLocationCheck.isLocationMocked();
+    document.getElementById("mock-value").innerText = isMock;
 }
