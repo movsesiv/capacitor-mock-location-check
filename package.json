@@ -1,6 +1,6 @@
 {
   "name": "@movsesiv/capacitor-mock-location-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Capacitor plugin allowing to check if location is mocked",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorMockLocationCheck.podspec"
+    "MovsesivCapacitorMockLocationCheck.podspec"
   ],
   "author": "movsesiv",
   "license": "MIT",
