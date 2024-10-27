@@ -1,4 +1,4 @@
-package com.movsesiv.capacitor.mocklocationcheck;
+package com.movsesiv.capacitormocklocationcheck;
 
 import android.util.Log;
 

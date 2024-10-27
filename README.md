@@ -1,11 +1,11 @@
-# capacitor-mock-location-checker
+# capacitor-mock-location-check
 
 Capacitor plugin allowing to check if location is mocked
 
 ## Install
 
 ```bash
-npm install capacitor-mock-location-checker
+npm install capacitor-mock-location-check
 npx cap sync
 ```
 

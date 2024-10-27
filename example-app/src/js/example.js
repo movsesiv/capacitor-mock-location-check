@@ -1,4 +1,4 @@
-import {MockLocationCheck} from 'capacitor-mock-location-checker';
+import {MockLocationCheck} from 'capacitor-mock-location-check';
 
 window.checkLocationMock = async () => {
     let isMock = await MockLocationCheck.isLocationMocked();

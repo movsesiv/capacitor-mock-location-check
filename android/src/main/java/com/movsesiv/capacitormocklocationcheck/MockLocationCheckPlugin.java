@@ -1,4 +1,4 @@
-package com.movsesiv.capacitor.mocklocationcheck;
+package com.movsesiv.capacitormocklocationcheck;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;

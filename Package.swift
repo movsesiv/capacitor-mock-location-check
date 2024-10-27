@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapacitorMockLocationChecker",
-    platforms: [.iOS(.v13)],
+    name: "CapacitorMockLocationCheck",
+    platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "CapacitorMockLocationChecker",
+            name: "CapacitorMockLocationCheck",
             targets: ["MockLocationCheckPlugin"])
     ],
     dependencies: [
