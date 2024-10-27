@@ -41,8 +41,8 @@ public class MockLocationCheckPlugin: CAPPlugin, CAPBridgedPlugin, CLLocationMan
       call?.reject("Unable to obtain location.")
       return
     }
-      let isSimulated = location.isSimulatedBySoftware
-      let result = ["isSimulated": isSimulated]
+      let isSimulated = location.sourceInformation!.isSimulatedBySoftware
+      let result = ["isLocationMocked": isSimulated]
       call?.resolve(result)
   }
 

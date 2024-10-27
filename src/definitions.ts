@@ -1,3 +1,3 @@
 export interface MockLocationCheckPlugin {
-  isLocationMocked(): Promise<boolean>;
+  isLocationMocked(): Promise<{isLocationMocked: boolean}>;
 }

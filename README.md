@@ -23,10 +23,10 @@ npx cap sync
 ### isLocationMocked()
 
 ```typescript
-isLocationMocked() => Promise<boolean>
+isLocationMocked() => Promise<{ isLocationMocked: boolean; }>
 ```
 
-**Returns:** <code>Promise&lt;boolean&gt;</code>
+**Returns:** <code>Promise&lt;{ isLocationMocked: boolean; }&gt;</code>
 
 --------------------
 
