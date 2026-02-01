@@ -1,6 +1,6 @@
 {
   "name": "@movsesiv/capacitor-mock-location-check",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Capacitor plugin allowing to check if location is mocked",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
